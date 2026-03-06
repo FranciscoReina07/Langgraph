@@ -1,0 +1,19 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Variables de entorno y contraseñas (¡Súper importante!)
+.env
+
+# Archivos temporales de Python y Mac/Windows
+__pycache__/
+*.pyc
+.DS_Store
+.langgraph_api/
+
+# IDE / Tools
+.qodo
+
+
+
