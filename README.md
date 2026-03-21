@@ -1,46 +1,41 @@
-# LangGraph
+# LangGraph Base Project
 
-AI agent workflows built with [LangGraph](https://langchain-ai.github.io/langgraph/), [LangChain](https://www.langchain.com/) and OpenAI.
+Base limpia para empezar a construir un agente con LangGraph desde cero.
 
-## Prerequisites
+## Requisitos
 
-- Python 3.11+
-- [uv](https://docs.astral.sh/uv/) package manager
+- Python 3.11
+- `uv` 0.10.5 o superior
 
-## Setup
+## Instalacion
 
 ```bash
 uv venv
 uv sync
 ```
 
-Create a `.env` file in the project root with your API keys:
+## Configuracion
 
-```
-OPENAI_API_KEY=your-key-here
+Crea un archivo `.env` en la raiz del proyecto:
+
+```env
+OPENAI_API_KEY=tu_clave
 ```
 
-## Usage
+## Ejecutar
 
 ```bash
 uv run python main.py
 ```
 
-## Development
+## Estructura
 
-```bash
-uv add ipykernel --dev
-uv run langgraph dev
-```
-
-## Project Structure
-
-```
+```text
+.
 ├── .gitignore
 ├── .python-version
-├── df.ipynb            # Experimentation notebook
-├── main.py             # Entry point
-├── pyproject.toml      # Dependencies and project config
+├── main.py
+├── pyproject.toml
 ├── README.md
 └── uv.lock
 ```

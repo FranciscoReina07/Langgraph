@@ -9,5 +9,8 @@ wheels/
 # Virtual environments
 .venv
 
-# IDE / Tools
-.qodo
+# Environment variables
+.env
+
+# Jupyter
+.ipynb_checkpoints/
